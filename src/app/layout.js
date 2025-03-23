@@ -22,7 +22,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
-      <script src="https://cdn.lordicon.com/lordicon.js"></script>
+      <script src="https://cdn.lordicon.com/lordicon.js" async></script>
       </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
